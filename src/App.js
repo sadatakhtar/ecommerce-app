@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Products />
+      <Products products={products}/>
     </div>
   )
 }
